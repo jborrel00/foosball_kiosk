@@ -1,7 +1,7 @@
 """foosball_game.py 
 this program will be run on the raspberry pi while the foosball game is going on. it will read the two card IDs of the players
 as well as the sides the players are playing on. this program is designed to work with a modified version of the arduino 
-program NFC-Card-Trigger.ino, which will only write 1 card's ID to the serial.
+program NFC-Card-Trigger.ino, justhex, which will only write 1 card's ID to the serial.
 
 additionally, this program will, once the player and side information has been input, keep track of goals and, at the
 game's conclusion, update the necessary mysql tables."""
